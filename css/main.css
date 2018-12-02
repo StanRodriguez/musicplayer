@@ -3,13 +3,16 @@
 }
 
 body {
-	background: #787d87 !important;
+background: rgb(121,125,135) !important;
+background: linear-gradient(180deg, rgba(121,125,135,1) 7%, rgba(182,186,191,1) 73%, rgba(199,203,207,1) 90%);
     font-family: 'Raleway', sans-serif;
 }
 
 #container {
 	position: absolute;
     /*box-sizing: border-box;*/
+background: rgb(121,125,135);
+background: linear-gradient(180deg, rgba(121,125,135,1) 7%, rgba(182,186,191,1) 73%, rgba(199,203,207,1) 90%);
 	width: 50%;
 	height: 450px;
 	top: 50px;
@@ -72,4 +75,9 @@ h6 {
 	opacity: 1;
 	background-color: #FFFFFF;
 	box-shadow: 1px 1px 5px white;
+}
+
+#shuffle:active,
+#loop:active {
+	background-color: rgba(137, 151, 183, 0.6);
 }
