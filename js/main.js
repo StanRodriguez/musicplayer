@@ -69,7 +69,7 @@ $(function() {
 			// console.log(songs);
 			// <option disabled selected value> -- select a song -- </option>
 			$("#songs").append(
-					$("<option>").attr("disabled","disabled").attr("selected","selected").attr("value",null).text("-- Select your song --")
+					$("<option>").attr("disabled","disabled").attr("selected","selected").attr("value",null).text("-- Pick a song --")
 				);
 			$.each(songs,function (key, value) {
 				// body...
